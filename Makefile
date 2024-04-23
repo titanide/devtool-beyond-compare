@@ -6,7 +6,7 @@ namespace ?= ${POD_NAMESPACE}
 registry ?= titan.hub:5000
 tag ?= ${registry}/${namespace}/${app_name}:${app_version}
 username ?=
-from_hub ?= ${registry}/titanide/
+from_hub ?= ${registry}/titanide
 from_tag ?= $(shell project-tag)
 force ?=
 

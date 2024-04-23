@@ -3,7 +3,7 @@
 # 默认的 Tag 是从系统动态获取
 ARG from_hub
 ARG from_tag
-FROM ${from_hub}template-base:${from_tag}
+FROM ${from_hub}/template-base:${from_tag}
 
 ARG icon
 LABEL metadata.icon="${icon}"
