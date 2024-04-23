@@ -32,14 +32,17 @@ LABEL metadata.usesubdomain=false
 # # 设置 true 或 false 指定访问应用的时候告诉网关使用子路径且重写上游应用的子路径或根路径。例如访问 example.com/app/foo/bar, 网关会重写上游路径 '/app/foo/bar' 或 '/' 。
 LABEL metadata.rewritesubpath=false
 
+USER root
 
 RUN wget -P /tmp https://www.scootersoftware.com/files/bcompare-4.4.7.28397_amd64.deb \
-    && sudo apt-get update \
-    && sudo dpkg -i /tmp/bcompare-4.4.7.28397_amd64.deb || sudo apt-get install -f -y
+    && apt-get update \
+    && dpkg -i /tmp/bcompare-4.4.7.28397_amd64.deb || apt-get install -f -y
 
 # 要运行桌面应用, 需要创建脚本运行，并将脚本命名为 /usr/bin/app，您还可以配置比较复杂的环境变量或其他依赖，复制到镜像内, 并确保有可执行权限
 COPY bin/app /usr/bin/app
-RUN sudo chmod +x /usr/bin/app
+RUN chmod +x /usr/bin/app
+
+USER ide
 
 # 如果您添加或修改了 $HOME/ 下面的文件，则需要运行以下一行
 RUN /finalize.sh
