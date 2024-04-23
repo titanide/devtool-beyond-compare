@@ -64,9 +64,14 @@ INFO[0169] Pushed titan.hub:5000/test/beyond-compare@sha256:9fe0c2cdd6e0c3bba5c1
 2024-04-23T14:38:57 info pushed titan.hub:5000/test/beyond-compare:v20240423-bc443d6
 ```
 
-## Create a new template on TitanIDE
+## Create template
+
+Create a new template using the image that above (titan.hub:5000/test/beyond-compare:v20240423-bc443d6)
 
 ![image](https://github.com/titanide/devtool-beyond-compare/assets/6748475/0212cf6f-9b6b-46e6-acd2-dc31226278b4)
+
+![image](https://github.com/titanide/devtool-beyond-compare/assets/6748475/9ced7694-a1ce-46aa-9e7c-e39bcc27ff35)
+
 
 Then you will see a new template is created
 
