@@ -1,7 +1,8 @@
-# Beyond Compare for TitanIDE
+# Beyond Compare for [TitanIDE](https://www.cloudtogo.cn/product-TitanIDE)
 
+This is a Dev Tool template Beyond Compare for [TitanIDE](https://www.cloudtogo.cn/product-TitanIDE)
 
-## Clone this repo to a TitanIDE Template Maker workspace
+## Clone this repo to a [TitanIDE](https://www.cloudtogo.cn/product-TitanIDE) Template Maker workspace
 
 ```bash
 git clone https://github.com/titanide/devtool-beyond-compare.git
