@@ -30,9 +30,17 @@ build: download ## build container image
 	  --skip-tls-verify
 
 docker-build: download ## build container image
-	docker build
+	@docker build
 	  --build-arg from_hub=${from_hub} \
 	  --build-arg from_tag=${from_tag} \
 	  --build-arg app_name=${app_name} \
 	  --build-arg app_version=${app_version} \
 	  --tag=${tag} \
+
+docker-buildx: download ## build container image
+	@docker buildx build --platform=linux/arm64,linux/amd64 
+	  --build-arg from_hub=${from_hub} \
+	  --build-arg from_tag=${from_tag} \
+	  --build-arg app_name=${app_name} \
+	  --build-arg app_version=${app_version} \
+	  --tag=${tag} . --push \
