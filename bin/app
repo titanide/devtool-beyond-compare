@@ -1,0 +1,5 @@
+
+#!/bin/bash
+
+# 执行应用
+/bin/bcompare
