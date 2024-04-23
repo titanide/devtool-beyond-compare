@@ -81,5 +81,6 @@ Then you will see a new template is created
 
 ![image](https://github.com/titanide/devtool-beyond-compare/assets/6748475/1ef4a35c-ab9c-4bc2-b0ff-257361e8880b)
 
+![image](https://github.com/titanide/devtool-beyond-compare/assets/6748475/889c5531-5d87-49ae-9fab-4c7fc3646694)
 
 
