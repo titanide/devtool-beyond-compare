@@ -5,9 +5,9 @@ This is a Dev Tool template Beyond Compare for [TitanIDE](https://www.cloudtogo.
 ## Clone this repo to a [TitanIDE](https://www.cloudtogo.cn/product-TitanIDE) Template Maker workspace
 
 ```bash
-git clone https://github.com/titanide/devtool-beyond-compare.git
+git clone https://github.com/titanide/template-devtool-bcompare.git
 
-cd devtool-beyond-compare
+cd template-devtool-bcompare
 
 make
 
@@ -69,19 +69,19 @@ INFO[0169] Pushed titan.hub:5000/test/beyond-compare@sha256:9fe0c2cdd6e0c3bba5c1
 
 Create a new template using the image that above (titan.hub:5000/test/beyond-compare:v20240423-bc443d6)
 
-![image](https://github.com/titanide/devtool-beyond-compare/assets/6748475/0212cf6f-9b6b-46e6-acd2-dc31226278b4)
+![image](https://github.com/titanide/template-devtool-bcompare/assets/6748475/0212cf6f-9b6b-46e6-acd2-dc31226278b4)
 
-![image](https://github.com/titanide/devtool-beyond-compare/assets/6748475/9ced7694-a1ce-46aa-9e7c-e39bcc27ff35)
+![image](https://github.com/titanide/template-devtool-bcompare/assets/6748475/9ced7694-a1ce-46aa-9e7c-e39bcc27ff35)
 
 
 Then you will see a new template is created
 
-![image](https://github.com/titanide/devtool-beyond-compare/assets/6748475/9532200f-471e-4b9e-8830-5c509065bb61)
+![image](https://github.com/titanide/template-devtool-bcompare/assets/6748475/9532200f-471e-4b9e-8830-5c509065bb61)
 
 ## Create a new project using the new template
 
-![image](https://github.com/titanide/devtool-beyond-compare/assets/6748475/1ef4a35c-ab9c-4bc2-b0ff-257361e8880b)
+![image](https://github.com/titanide/template-devtool-bcompare/assets/6748475/1ef4a35c-ab9c-4bc2-b0ff-257361e8880b)
 
-![image](https://github.com/titanide/devtool-beyond-compare/assets/6748475/889c5531-5d87-49ae-9fab-4c7fc3646694)
+![image](https://github.com/titanide/template-devtool-bcompare/assets/6748475/889c5531-5d87-49ae-9fab-4c7fc3646694)
 
 
